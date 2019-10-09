@@ -1,0 +1,8 @@
+{
+  "name": "iflix_SoftwareEngineer_Test_MY",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iflix-letsplay/coding-test.git",
+  "author": "Wei Jian Gan <weijiangan@outlook.com>",
+  "license": "MIT"
+}
