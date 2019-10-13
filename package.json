@@ -2,6 +2,23 @@
   "name": "iflix_SoftwareEngineer_Test_MY",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "jsx",
+      "ts",
+      "tsx",
+      "node",
+      "mjs"
+    ],
+    "transform": {
+      "^.+\\.m?js$": "babel-jest"
+    }
+  },
   "repository": "git@github.com:iflix-letsplay/coding-test.git",
   "author": "Wei Jian Gan <weijiangan@outlook.com>",
   "license": "MIT",
