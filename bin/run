@@ -5,5 +5,5 @@ DIRNAME=${BASH_SOURCE%/*}
 if yarn || npm install; then
     $DIRNAME/../node_modules/.bin/knex migrate:latest;
     $DIRNAME/../node_modules/.bin/knex seed:run;
-    node --experimental-modules --es-module-specifier-resolution=node lib/index.mjs $DIRNAME/../lib/index.mjs
+    node $DIRNAME/../lib/index.js
 fi
