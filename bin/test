@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "You test me"
+DIRNAME=${BASH_SOURCE%/*}
+
+yarn test
