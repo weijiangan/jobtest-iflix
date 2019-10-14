@@ -75,7 +75,7 @@ describe("Test processOffers", () => {
           partner: "a"
         },
         {
-          type: "revoke",
+          type: "revocation",
           date: "2015-06-10T20:34:44",
           partner: "a"
         },
@@ -99,7 +99,7 @@ describe("Test processOffers", () => {
           partner: "a"
         },
         {
-          type: "revoke",
+          type: "revocation",
           date: "2015-03-10T20:34:44",
           partner: "a"
         },
