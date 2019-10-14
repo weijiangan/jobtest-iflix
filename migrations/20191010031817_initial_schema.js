@@ -1,4 +1,4 @@
-const partners = ["amazecom", "wondertel"];
+const partners = ["Amazecom", "Wondertel"];
 
 exports.up = function(knex) {
   return knex.schema
