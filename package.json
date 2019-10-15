@@ -27,6 +27,7 @@
   "dependencies": {
     "jest": "^24.9.0",
     "knex": "^0.19.5",
+    "mock-knex": "^0.4.6",
     "objection": "^1.6.11",
     "sqlite3": "^4.1.0",
     "winston": "^3.2.1"
